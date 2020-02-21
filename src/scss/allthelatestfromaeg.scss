@@ -3,11 +3,12 @@
 .all_the_latest_from_AEG___container {
   padding: 132px 0px;
   .latest___heading {
-    margin-bottom: 30px;
+    margin-bottom: 42px;
     text-align: center;
     font-weight: 100;
+    letter-spacing: 1px;
     @media (max-width: 768px) {
-        font-size: 29px;
+      font-size: 29px;
     }
   }
 
@@ -18,8 +19,10 @@
       text-align: center;
     }
     .latest_img___top {
-      margin: auto;
       border-bottom: 4px solid $read-more-link-underline-red;
+      @media (min-width: 436px) and (max-width: 769px) {
+        margin: auto;
+      }
     }
     .latest_img___hover {
       transition: all 0.2s ease-in-out;
@@ -37,15 +40,21 @@
         padding: 20px 0px;
       }
     }
+    .latest___text {
+      margin-bottom: 27px;
+    }
     .read_more___link {
       color: $read-more-link-color;
       text-transform: uppercase;
       font-weight: bold;
       letter-spacing: 2px;
       text-decoration: none;
-      &:hover {
-        border-bottom: 1px solid $read-more-link-underline-red;
-        padding-bottom: 7px;
+      border-bottom: 1px solid $read-more-link-underline-red;
+      padding-bottom: 7px;
+      @media (max-width: 768px) {
+        margin: 30px auto;
+        display: block;
+        width: 128px;
       }
     }
   }

@@ -7,7 +7,7 @@ import AllTheLatestFromAEG from "../AllTheLatestFromAEG/AllTheLatestFromAEG";
 class Home extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div className="container-fluid">
         <AnswerYourBodysNeeds />;
         <AllTheLatestFromAEG />
       </div>
