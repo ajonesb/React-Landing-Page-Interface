@@ -1,0 +1,52 @@
+@import "./variables.scss";
+
+.all_the_latest_from_AEG___container {
+  padding: 132px 0px;
+  .latest___heading {
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 100;
+    @media (max-width: 768px) {
+        font-size: 29px;
+    }
+  }
+
+  .latest_post___container {
+    margin: 25px 0px;
+    @media (max-width: 768px) {
+      margin: 25px auto;
+      text-align: center;
+    }
+    .latest_img___top {
+      margin: auto;
+      border-bottom: 4px solid $read-more-link-underline-red;
+    }
+    .latest_img___hover {
+      transition: all 0.2s ease-in-out;
+    }
+    .latest_img___hover:hover {
+      transform: scale(1.1);
+    }
+
+    .latest___title {
+      color: $latest-title-color;
+      font-size: $latest-title-font-size;
+      padding: 30px 0px 9px;
+      @media (max-width: 768px) {
+        text-align: center;
+        padding: 20px 0px;
+      }
+    }
+    .read_more___link {
+      color: $read-more-link-color;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-decoration: none;
+      &:hover {
+        border-bottom: 1px solid $read-more-link-underline-red;
+        padding-bottom: 7px;
+      }
+    }
+  }
+}
