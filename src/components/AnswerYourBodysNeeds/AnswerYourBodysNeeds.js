@@ -9,7 +9,7 @@ class AnswerYourBodysNeeds extends React.Component {
       <div className="Answer_Your_Body_Needs___container row">
         <div className="col-md-6 col-lg-6 col-xl-4">
           <img
-            className="Body_Needs___Top-image"
+            className="Body_Needs_img___hover Body_Needs___Top-image"
             src={BodyNeeds1}
             alt="Body Needs"
           />
@@ -17,14 +17,14 @@ class AnswerYourBodysNeeds extends React.Component {
         <div className="col-md-6 col-lg-6 col-xl-4">
           <div className="text-left">
             <img
-              className="Body_Needs_Two___Top"
+              className="Body_Needs_img___hover Body_Needs_Two___Top"
               src={BodyNeeds2Top}
               alt="Body Needs"
             />
           </div>
           <div className="text-left">
             <img
-              className="Body_Needs_Two___Bottom"
+              className="Body_Needs_img___hover Body_Needs_Two___Bottom"
               src={BodyNeeds2Bottom}
               alt="Body Needs"
             />

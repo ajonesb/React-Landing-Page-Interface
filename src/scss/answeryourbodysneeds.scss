@@ -26,6 +26,13 @@
     }
   }
 
+  .Body_Needs_img___hover {
+    transition: $body-needs-img-hover-transition;
+  }
+  .Body_Needs_img___hover:hover {
+    transform: $body-needs-img-hover-transform;
+  }
+
   .Body_Needs_Information___Top {
     @media (max-width: 1199px) {
       margin: 20px auto;
