@@ -12,10 +12,10 @@
   .latest___heading {
     margin-bottom: 42px;
     text-align: center;
-    font-weight: 100;
-    letter-spacing: 1px;
+    font-weight: $latest-heading-font-weight;
+    letter-spacing: $latest-heading-letter-spacing;
     @media (max-width: 768px) {
-      font-size: 29px;
+      font-size: latest-heading-font-size-mobile;
     }
   }
 
@@ -26,17 +26,17 @@
       text-align: center;
     }
     .latest_img___top {
-      border-bottom: 4px solid $read-more-link-underline-red;
+      border-bottom: 4px solid $latest-read-more-link-underline-red;
       @media (min-width: 436px) and (max-width: 769px) {
         margin: auto;
       }
     }
 
     .latest_img___hover {
-      transition: all 0.2s ease-in-out;
+      transition: $latest-img-hover-transition;
     }
     .latest_img___hover:hover {
-      transform: scale(1.1);
+      transform: $latest-img-hover-transform;
     }
 
     .latest___title {
@@ -52,17 +52,21 @@
       margin-bottom: 27px;
     }
     .read_more___link {
-      color: $read-more-link-color;
+      color: $latest-read-more-link-color;
       text-transform: uppercase;
-      font-weight: bold;
-      letter-spacing: 2px;
+      font-weight: $latest-read-more-link-font-weight;
+      letter-spacing: $latest-heading-letter-spacing;
       text-decoration: none;
-      border-bottom: 1px solid $read-more-link-underline-red;
+      border-bottom: 1px solid $latest-read-more-link-underline-red;
       padding-bottom: 7px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      background: none;
       @media (max-width: 768px) {
         margin: 30px auto;
         display: block;
-        width: 128px;
+        width: $latest-read-more-link-width-mobile;
       }
     }
   }

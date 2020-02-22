@@ -15,16 +15,20 @@ body {
   }
 
   .container-fluid {
-    padding: 0px 80px;
+    padding: 0px 69px;
     @media (max-width: 768px) {
       padding: 25px;
     }
   }
 
-   // Images for Larger screens
-   @media (min-width: 1500px) {
+  // Images for Larger screens
+  @media (min-width: 1500px) {
     img {
       margin: auto;
     }
+  }
+  // Remove browser borders added
+  :focus {
+    outline: none !important;
   }
 }

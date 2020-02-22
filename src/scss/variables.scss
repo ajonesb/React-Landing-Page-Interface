@@ -1,22 +1,33 @@
-// GENERAL BODY VARIABLES 
+// GENERAL BODY VARIABLES
 $background_color: #0e1414;
 $text-gray-font: #e6e7e7;
-$text-body-font-size: 18px;
+$text-body-font-size: 19px;
 $heading-color: #ffffff;
-
-
 
 // COMPONENT VARIABLES
 
 /* Section: Answer your body's needs: */
-
-
+$body-needs-information-title-color: #ffffff;
+$body-needs-font-weight: 300;
+$body-needs-information-title-font-size: 25px;
+$body-needs-information-border-top-color: 1px solid #ffffff;
+$body-needs-information-margin-bottom: 17px;
+$body-needs-information-section-color: #cd1430;
+$body-needs-information-text-transform: uppercase;
+$body-needs-information-section-font-size: 17px;
+$body-needs-information-bottom-text-color: #ffffff;
+$body-needs-information-bottom-text-font-size: 19px;
 
 /* Section: All the latest */
 $latest-title-color: #ffffff;
 $latest-title-font-size: 19px;
-$read-more-link-color: #ffffff;
-$read-more-link-underline-red: #cd1430;
-
-
-
+$latest-read-more-link-color: #ffffff;
+$latest-read-more-link-underline-red: #cd1430;
+$latest-heading-font-size-mobile: 29px;
+$latest-heading-font-weight: 100;
+$latest-heading-letter-spacing: 1px;
+$latest-read-more-link-font-weight: bold;
+$latest-read-more-link-width-mobile: 128px;
+$latest-heading-letter-spacing: 2px;
+$latest-img-hover-transition: all 0.2s ease-in-out;
+$latest-img-hover-transform: scale(1.1);

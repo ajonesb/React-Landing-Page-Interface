@@ -1,4 +1,5 @@
 import React from "react";
+
 // SASS
 import "../../scss/allthelatestfromaeg.scss";
 //Images
@@ -7,6 +8,17 @@ import AEGLatest2 from "./AEG-latest2.jpg";
 import AEGLatest3 from "./AEG-latest3.jpg";
 
 class AllTheLatestFromAEG extends React.Component {
+
+  handleEventOne = event => {
+    console.log("Summer Lunch Menu by Mark Best clicked.");
+  };
+  handleEventTwo = event => {
+    console.log("A traditional Christmas Eve, Mark Best Style clicked");
+  };
+  handleEventThree = event => {
+    console.log("Taking Taste Further clicked");
+  };
+
   render() {
     return (
       <div className="all_the_latest_from_AEG___container row">
@@ -30,9 +42,12 @@ class AllTheLatestFromAEG extends React.Component {
             </div>
 
             <div className="latest___body">
-              <a href="#" className="read_more___link">
-                latest link
-              </a>
+              <button
+                className="read_more___link"
+                onClick={this.handleEventOne}
+              >
+                Read More
+              </button>
             </div>
           </div>
         </div>
@@ -56,9 +71,12 @@ class AllTheLatestFromAEG extends React.Component {
             </div>
 
             <div className="latest___body">
-              <a href="#" className="read_more___link">
-                latest link
-              </a>
+              <button
+                className="read_more___link"
+                onClick={this.handleEventTwo}
+              >
+                Read More
+              </button>
             </div>
           </div>
         </div>
@@ -80,9 +98,12 @@ class AllTheLatestFromAEG extends React.Component {
             </div>
 
             <div className="latest___body">
-              <a href="#" className="read_more___link">
-                latest link
-              </a>
+              <button
+                className="read_more___link"
+                onClick={this.handleEventThree}
+              >
+                Read More
+              </button>
             </div>
           </div>
         </div>

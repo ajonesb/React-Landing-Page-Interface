@@ -31,30 +31,30 @@
       margin: 20px auto;
     }
     .Body_Needs_Information___Title {
-      color: #ffffff;
-      font-weight: 300;
-      font-size: 25px;
-      margin-bottom: 17px;
+      color: $body-needs-information-title-color;
+      font-weight: $body-needs-font-weight;
+      font-size: $body-needs-information-title-font-size;
+      margin-bottom: body-needs-information-margin-bottom;
       display: block;
       @media (max-width: 768px) {
         text-align: center;
       }
     }
     .Body_Needs_Information___Text {
-      border-top: 1px solid #ffffff;
+      border-top: $body-needs-information-border-top-color;
       padding-top: 28px;
     }
   }
   .Body_Needs_Three___Bottom {
     .Body_Needs_Three___Bottom_title {
-      color: #cd1430;
-      text-transform: uppercase;
-      font-size: 17px;
+      color: $body-needs-information-section-color;
+      text-transform: $body-needs-information-text-transform;
+      font-size: $body-needs-information-section-font-size;
       margin-top: 43px;
     }
     .Body_Needs_Three___Bottom_Text {
-      color: #ffffff;
-      font-size: 19px;
+      color: $body-needs-information-bottom-text-color;
+      font-size: $body-needs-information-bottom-text-font-size;
     }
   }
 }
