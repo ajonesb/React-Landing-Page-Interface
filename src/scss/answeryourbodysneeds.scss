@@ -1,5 +1,60 @@
 @import "./variables.scss";
 
-.answer_your_body_needs___container {
-    padding: 132px 0px;
+.Answer_Your_Body_Needs___container {
+  margin: 170px 0px;
+  @media (max-width: 768px) {
+    margin: auto;
+    text-align: center;
+  }
+
+  .Body_Needs___Top-image {
+    @media (max-width: 768px) {
+      margin: 0px auto 26px;
+    }
+  }
+
+  .Body_Needs_Two___Top {
+    margin-bottom: 17px;
+    @media (max-width: 768px) {
+      margin: 0px auto 26px;
+    }
+  }
+
+  .Body_Needs_Two___Bottom {
+    @media (max-width: 768px) {
+      margin: auto;
+    }
+  }
+
+  .Body_Needs_Information___Top {
+    @media (max-width: 1199px) {
+      margin: 20px auto;
+    }
+    .Body_Needs_Information___Title {
+      color: #ffffff;
+      font-weight: 300;
+      font-size: 25px;
+      margin-bottom: 17px;
+      display: block;
+      @media (max-width: 768px) {
+        text-align: center;
+      }
+    }
+    .Body_Needs_Information___Text {
+      border-top: 1px solid #ffffff;
+      padding-top: 28px;
+    }
+  }
+  .Body_Needs_Three___Bottom {
+    .Body_Needs_Three___Bottom_title {
+      color: #cd1430;
+      text-transform: uppercase;
+      font-size: 17px;
+      margin-top: 43px;
+    }
+    .Body_Needs_Three___Bottom_Text {
+      color: #ffffff;
+      font-size: 19px;
+    }
+  }
 }

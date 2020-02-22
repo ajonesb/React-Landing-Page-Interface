@@ -11,6 +11,7 @@ body {
     color: $text-gray-font;
     font-size: $text-body-font-size;
     font-weight: 300;
+    line-height: 28px;
   }
 
   .container-fluid {
@@ -20,4 +21,10 @@ body {
     }
   }
 
+   // Images for Larger screens
+   @media (min-width: 1500px) {
+    img {
+      margin: auto;
+    }
+  }
 }

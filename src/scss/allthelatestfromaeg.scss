@@ -1,7 +1,14 @@
 @import "./variables.scss";
 
 .all_the_latest_from_AEG___container {
-  padding: 132px 0px;
+  margin: 35px 0px;
+  @media (max-width: 768px) {
+    margin: 100px 0px;
+
+    .col-sm-12 {
+      margin-bottom: 50px;
+    }
+  }
   .latest___heading {
     margin-bottom: 42px;
     text-align: center;
@@ -24,6 +31,7 @@
         margin: auto;
       }
     }
+
     .latest_img___hover {
       transition: all 0.2s ease-in-out;
     }
