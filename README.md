@@ -39,8 +39,8 @@ Project Starter:
 
 ### npm install
 Installs React 
-Installs React Router and React Router Dom for future development of routing from component to component if neccessary) locally on project.
-Installs SCSS pre processor locally on project
+Installs React Router and React Router Dom (for future development of routing from component to component if neccessary) locally on project.
+Installs SCSS pre processor locally on project.
 
 ### `yarn build` or ### `npm run build`
 Builds the app for production to the `build` folder.<br />
