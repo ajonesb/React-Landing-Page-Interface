@@ -51,3 +51,6 @@ Your app is ready to be deployed!
 
 ### `npm start`
 In the project directory, you can run to start up the web application:
+
+## View Demo: 
+http://jonesfrontendwebdev.com/Orchard-Front-End-Test-v2.1-1-Alan-Jones/index.html
