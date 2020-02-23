@@ -39,10 +39,9 @@ Project Starter:
 
 ### npm install
 Installs React 
-Installs React Router and React Router Dom (for future development of routing from component to component if neccessary) locally on project.
-Installs SCSS pre processor locally on project.
+Installs React Router and React Router Dom (for future development of routing from component to component if neccessary), installs Webpack module bundler for building the project with react script start, and Installs SCSS pre processor. 
 
-### `yarn build` or ### `npm run build`
+### `yarn build` or `npm run build`
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
@@ -51,6 +50,7 @@ Your app is ready to be deployed!
 
 ### `npm start`
 In the project directory, you can run to start up the web application:
+Local:http://localhost:3000/
 
 ## View Demo: 
 http://jonesfrontendwebdev.com/Orchard-Front-End-Test-v2.1-1-Alan-Jones/index.html
