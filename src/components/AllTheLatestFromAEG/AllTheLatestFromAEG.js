@@ -10,10 +10,10 @@ import AEGLatest3 from "./AEG-latest3.jpg";
 class AllTheLatestFromAEG extends React.Component {
 
   handleEventOne = event => {
-    console.log("Summer Lunch Menu by Mark Best clicked.");
+    console.log("Summer Lunch Menu by Mark Best clicked");
   };
   handleEventTwo = event => {
-    console.log("A traditional Christmas Eve, Mark Best Style clicked");
+    console.log("A Traditional Christmas Eve, Mark Best Style clicked");
   };
   handleEventThree = event => {
     console.log("Taking Taste Further clicked");
@@ -57,7 +57,7 @@ class AllTheLatestFromAEG extends React.Component {
             <img
               className="latest_img___top latest_img___hover"
               src={AEGLatest2}
-              alt="A traditional Christmas Eve, Mark Best Style"
+              alt="A Traditional Christmas Eve, Mark Best Style"
             />
             <div className="latest___body">
               <h5 className="latest___title">

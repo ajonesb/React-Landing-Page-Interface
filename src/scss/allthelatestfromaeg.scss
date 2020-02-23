@@ -50,6 +50,10 @@
     }
     .latest___text {
       margin-bottom: 27px;
+      text-align: left;
+      @media (max-width: 768px) {
+        text-align: center;
+      }
     }
     .read_more___link {
       color: $latest-read-more-link-color;

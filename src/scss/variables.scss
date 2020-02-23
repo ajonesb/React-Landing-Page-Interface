@@ -1,8 +1,27 @@
-// GENERAL BODY VARIABLES
+// GENERAL BODY COLOR AND FONTS
 $background_color: #0e1414;
+$heading-color: #ffffff;
 $text-gray-font: #e6e7e7;
 $text-body-font-size: 19px;
-$heading-color: #ffffff;
+
+
+// LOADER
+$body-loader-border-color: #f3f3f3;
+$body-loader-border-color-top: #3498db;
+$body-loader-border-radius: 50%;
+$body-loader-border-width: 120px;
+$body-loader-border-height: 120px;
+$body-loader-webkit-animation: spin 2s linear infinite;
+$body-loader-animation: spin 2s linear infinite;
+$body-loader-webkit-keyframes-spin-0-percent-webkit-transform: rotate(0deg);
+$body-loader-webkit-keyframes-spin-100-percent-webkit-transform: rotate(360deg);
+$body-loader-webkit-keyframes-spin-0-percent-transform: rotate(0deg);
+$body-loader-webkit-keyframes-spin-100-percent-transform: rotate(360deg);
+$body-loader-animate-bottom-webkit-animation-name: animatebottom;
+$body-loader-animate-bottom-webkit-animation-duration: 1s;
+$body-loader-animate-bottom-animation-name: animatebottom;
+$body-loader-animate-bottom--animation-duration: 1s;
+
 
 // COMPONENT VARIABLES
 
