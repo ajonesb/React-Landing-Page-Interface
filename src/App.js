@@ -6,7 +6,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="App_SEO___Main_Container">
         <HelmetProvider>
           <Helmet>
             <meta charSet="utf-8" />
