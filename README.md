@@ -38,8 +38,10 @@ Project Starter:
 ************************************************************************************
 
 ### npm install
-Installs React 
-Installs React Router and React Router Dom (for future development of routing from component to component if neccessary), installs Webpack module bundler for building the project with react script start, and Installs SCSS pre processor. 
+- Installs React 
+- Installs React Router React Router Dom (for future development of routing from component to component if neccessary)
+- Installs Webpack module bundler for building the project with react script Installs SCSS pre processor SASS
+- For React SEO, installs Helmet A-Sync : https://github.com/staylor/react-helmet-async
 
 ### `yarn build` or `npm run build`
 Builds the app for production to the `build` folder.<br />
