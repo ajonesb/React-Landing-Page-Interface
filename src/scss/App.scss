@@ -93,6 +93,13 @@ body {
     }
   }
 
+  // Fix for grid for elements to match design spacing
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1256px;
+    }
+  }
+
   // Images for Larger screens
   @media (min-width: 1500px) {
     img {
