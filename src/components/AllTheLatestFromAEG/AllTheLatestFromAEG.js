@@ -1,4 +1,5 @@
 import React from "react";
+import { SRLWrapper } from "simple-react-lightbox"; // Import SRLWrapper
 
 // SASS
 import "../../scss/allthelatestfromaeg.scss";
@@ -7,8 +8,22 @@ import AEGLatest1 from "./AEG-latest1.jpg";
 import AEGLatest2 from "./AEG-latest2.jpg";
 import AEGLatest3 from "./AEG-latest3.jpg";
 
-class AllTheLatestFromAEG extends React.Component {
+const options = {
+  overlayColor: "rgba(0, 0, 0, 0.9)",
+  captionColor: "#ffffff",
+  captionFontFamily: "Raleway, sans-serif",
+  captionFontSize: "22px",
+  captionFontWeight: "300",
+  captionFontStyle: "capitalize",
+  buttonsBackgroundColor: "#000000",
+  buttonsIconColor: "#e6e6e6",
+  autoplaySpeed: 1500,
+  transitionSpeed: 900,
+  showThumbnails: false,
+  enablePanzoom: false,
+};
 
+class AllTheLatestFromAEG extends React.Component {
   handleEventOne = event => {
     console.log("Summer Lunch Menu by Mark Best clicked");
   };
@@ -27,11 +42,15 @@ class AllTheLatestFromAEG extends React.Component {
         </div>
         <div className="col-sm-12 col-md-6 col-lg-4">
           <div className="latest_post___container">
-            <img
-              className="latest_img___top latest_img___hover"
-              src={AEGLatest1}
-              alt="Summer lunch menu by Mark Best"
-            />
+            <SRLWrapper options={options}>
+              <img
+                className="latest_img___top latest_img___hover"
+                src={AEGLatest1}
+                alt="Summer lunch menu by Mark Best"
+                data-attribute="SRL"
+              />
+            </SRLWrapper>
+
             <div className="latest___body">
               <h5 className="latest___title">Summer Lunch Menu by Mark Best</h5>
               <p className="latest___text">
@@ -54,11 +73,14 @@ class AllTheLatestFromAEG extends React.Component {
 
         <div className="col-sm-12 col-md-6 col-lg-4">
           <div className="latest_post___container">
-            <img
-              className="latest_img___top latest_img___hover"
-              src={AEGLatest2}
-              alt="A Traditional Christmas Eve, Mark Best Style"
-            />
+            <SRLWrapper options={options}>
+              <img
+                className="latest_img___top latest_img___hover"
+                src={AEGLatest2}
+                alt="A Traditional Christmas Eve, Mark Best Style"
+                data-attribute="SRL"
+              />
+            </SRLWrapper>
             <div className="latest___body">
               <h5 className="latest___title">
                 A traditional Christmas Eve, Mark Best Style
@@ -83,11 +105,14 @@ class AllTheLatestFromAEG extends React.Component {
 
         <div className="col-sm-12 col-md-6 col-lg-4">
           <div className="latest_post___container">
-            <img
-              className="latest_img___top latest_img___hover"
-              src={AEGLatest3}
-              alt="Taking taste further"
-            />
+            <SRLWrapper options={options}>
+              <img
+                className="latest_img___top latest_img___hover"
+                src={AEGLatest3}
+                alt="Taking taste further"
+                data-attribute="SRL"
+              />
+            </SRLWrapper>
             <div className="latest___body">
               <h5 className="latest___title">Taking Taste Further</h5>
               <p className="latest___text">
