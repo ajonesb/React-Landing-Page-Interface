@@ -42,6 +42,7 @@ Project Starter:
 - Installs React Router React Router Dom (for future development of routing from component to component if neccessary)
 - Installs Webpack module bundler for building the project with react script Installs SCSS pre processor SASS
 - For React SEO, installs Helmet A-Sync : https://github.com/staylor/react-helmet-async
+- Installs Simple React Lightbox functionality for images - https://www.npmjs.com/package/simple-react-lightbox
 
 ### `yarn build` or `npm run build`
 Builds the app for production to the `build` folder.<br />
