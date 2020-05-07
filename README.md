@@ -13,6 +13,7 @@ Attached you will find two screenshots representing two content blocks in a page
 * All content areas deemed as being populated from a CMS - so all copy lengths can vary.
 
 ## Technologies
+* React
 * CSS-preprocessors - SASS Used
 * CSS frameworks (Bootstrap)
 
