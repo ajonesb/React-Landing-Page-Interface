@@ -1,10 +1,10 @@
-# Interface Development Test
+# React Landing page - Interface
 
 ## Design assets
 * Invision public URL: https://projects.invisionapp.com/share/5WQPC1IJM9N
 * You should also have been added to the board to have access to the inspect tab.
 
-## Test instructions
+## Instructions
 Attached you will find two screenshots representing two content blocks in a page. Complete the following:
 * The code should be submitted on a public github account. Bonus points for more than one commit.
 * Build the two blocks using modern HTML5 standards.
@@ -14,8 +14,8 @@ Attached you will find two screenshots representing two content blocks in a page
 * All content areas should be deemed as being populated from a CMS - so all copy lengths can vary!
 
 ## Technologies
-* Any CSS-preprocessors (LESS preferred).
-* Any CSS frameworks (Bootsrap preferred).
+* Any CSS-preprocessors - SASS Used
+* Any CSS frameworks (Bootstrap).
 * If vanilla CSS is used, please include some reasoning for the decision.
 * Build tools and task runners are encouraged (i.e. grunt/gulp/webpack).
 
@@ -26,8 +26,8 @@ Attached you will find two screenshots representing two content blocks in a page
 * *Section: All the latest:* Each image in this section should display in a modal on click.
 * *Section: Answer your body's needs:* These items should be links to new pages.
 
-## Review Criteria
-We are looking for your ability to give life to static designs. During that process consider:
+## Criteria
+This react component static design process considers:
 * *Project structure:* Clean project and logical traversal.
 * *JavaScript:* Efficiency of code and efficacy in bringing the design to life.
 * *Interface:* Semantic markup and styling.
