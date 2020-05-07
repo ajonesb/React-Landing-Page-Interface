@@ -1,0 +1,54 @@
+// GENERAL BODY COLOR AND FONTS
+$background_color: #0e1414;
+$heading-color: #ffffff;
+$text-gray-font: #e6e7e7;
+$text-body-font-size: 19px;
+
+
+// LOADER
+$body-loader-border-color: #f3f3f3;
+$body-loader-border-color-top: #3498db;
+$body-loader-border-radius: 50%;
+$body-loader-border-width: 120px;
+$body-loader-border-height: 120px;
+$body-loader-webkit-animation: spin 2s linear infinite;
+$body-loader-animation: spin 2s linear infinite;
+$body-loader-webkit-keyframes-spin-0-percent-webkit-transform: rotate(0deg);
+$body-loader-webkit-keyframes-spin-100-percent-webkit-transform: rotate(360deg);
+$body-loader-webkit-keyframes-spin-0-percent-transform: rotate(0deg);
+$body-loader-webkit-keyframes-spin-100-percent-transform: rotate(360deg);
+$body-loader-animate-bottom-webkit-animation-name: animatebottom;
+$body-loader-animate-bottom-webkit-animation-duration: 1s;
+$body-loader-animate-bottom-animation-name: animatebottom;
+$body-loader-animate-bottom--animation-duration: 1s;
+
+
+// COMPONENT VARIABLES
+
+/* Section: Answer your body's needs: */
+$body-needs-information-title-color: #ffffff;
+$body-needs-font-weight: 300;
+$body-needs-information-title-font-size: 25px;
+$body-needs-information-border-top-color: 1px solid #ffffff;
+$body-needs-information-margin-bottom: 17px;
+$body-needs-information-section-color: #cd1430;
+$body-needs-information-text-transform: uppercase;
+$body-needs-information-section-font-size: 17px;
+$body-needs-information-bottom-text-color: #ffffff;
+$body-needs-information-bottom-text-font-size: 19px;
+$body-needs-img-hover-transition: all 0.2s ease-in-out;
+$body-needs-img-hover-transform: scale(1.1);
+
+/* Section: All the latest */
+$latest-title-color: #ffffff;
+$latest-title-font-size: 19px;
+$latest-read-more-link-color: #ffffff;
+$latest-read-more-link-underline-red: #cd1430;
+$latest-heading-font-size-mobile: 29px;
+$latest-heading-font-weight: 100;
+$latest-heading-letter-spacing: 1px;
+$latest-read-more-link-font-weight: bold;
+$latest-read-more-link-width-mobile: 128px;
+$latest-heading-letter-spacing: 2px;
+$latest-img-hover-transition: all 0.2s ease-in-out;
+$latest-img-hover-transform: scale(1.1);
